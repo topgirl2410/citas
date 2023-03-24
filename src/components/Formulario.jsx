@@ -1,11 +1,8 @@
 import React from 'react'
 
-function Formulario() {
-
+const Formulario = () => {
     return (
-        <>
-            <div>Formulario</div>
-        </>
+        <h1>Formulario</h1>
     )
 }
 
