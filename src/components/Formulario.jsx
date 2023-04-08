@@ -8,7 +8,7 @@ const Formulario = () => {
                 <span className='text-indigo-600 font-bold'>Administralos</span>
             </p>
 
-            <form className='bg-white shadow-md rounded-lg py-5 px-5'>
+            <form className='bg-white shadow-md rounded-lg py-5 px-5 mb-5'>
                 <div className='mb-5'>
                     <label
                         htmlFor='mascota'
@@ -76,7 +76,7 @@ const Formulario = () => {
                         htmlFor='sintomas'
                         className='block text-gray-700 uppercase font-bold'
                     >
-                        Sintomas de la Mascota
+                        Sintomas
                     </label>
                     <textarea
                         id='sintomas'
@@ -85,6 +85,12 @@ const Formulario = () => {
                         placeholder='Describe los Sintomas de tu Mascota'
                     />
                 </div>
+                <input
+                    type="submit"
+                    className='bg-indigo-600 w-full p-3 text-white uppercase font-bold
+                    hover:bg-indigo-800 cursor-pointer transition-all'
+                    value='Agregar Paciente'
+                />
             </form>
         </div>
     )
